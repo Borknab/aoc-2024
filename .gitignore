@@ -2,3 +2,6 @@
 .scala-build
 .metals
 .bsp
+.idea
+project/
+target/
