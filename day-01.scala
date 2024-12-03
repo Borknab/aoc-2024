@@ -1,7 +1,7 @@
 import scala.io.Source
 import scala.collection.mutable
 
-@main def hello() =
+@main def day1() =
     val source = Source.fromFile("input-01.txt")
     var firstNums: mutable.ListBuffer[Int] = mutable.ListBuffer()
     var secondNums: mutable.ListBuffer[Int] = mutable.ListBuffer()
