@@ -1,4 +1,4 @@
-f = open("input-04.txt", "r")
+f = open("input-05.txt", "r")
 rules = set()
 
 while True:
