@@ -8,7 +8,7 @@ for line in f:
 
 valid_goals = set()
 def recurse(goal, nums, nums_idx, idx, cur_res, operation):
-    if cur_res == goal: 
+    if cur_res == goal and idx == len(nums): 
         valid_goals.add((goal, nums_idx))
         return
     if idx >= len(nums): return
