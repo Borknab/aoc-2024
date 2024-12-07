@@ -1,4 +1,4 @@
-f = open("input.txt", "r")
+f = open("input-06.txt", "r")
 maze = []
 for line in f: maze.append(line.strip())
 rows = len(maze)
