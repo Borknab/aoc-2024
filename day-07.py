@@ -1,4 +1,4 @@
-f = open("input-07-1.txt", "r")
+f = open("input-07.txt", "r")
 m = []
 
 for line in f:
